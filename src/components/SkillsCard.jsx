@@ -3,7 +3,7 @@ const SkillsCard = ({ icon, title, text }) => {
         <article>
             <span>{icon}</span>
             <h4 className='mt-6 font-bolder'>{title}</h4>
-            <p className='mt-2 text-slate-400'>{text}</p>
+            <p className='mt-2 text-slate-300'>{text}</p>
         </article>
     );
 };
