@@ -5,15 +5,16 @@ import SectionTitle from './SectionTitle';
 const Projects = () => {
     return (
         <section
-            className='py-5 align-element font-jura text-slate-50 '
+            className='py-5 align-element font-one text-slate-50 '
             id='projects'
         >
             <SectionTitle text='My Projects' />
             <p className='text-slate-50 mt-1'>
-                Explore my collection of projects, with some already deployed
-                and ready for real-world use. While others are primed for
-                deployment or integration, whether as standalone applications or to be
-                seamlessly connected to frontend or backend components.
+                Explore my collection of data analysis projects, where I
+                transform raw data into meaningful insights through
+                visualization and analytics. Each project showcases my ability
+                to extract, analyze, and present data in a clear and impactful
+                way, helping to uncover trends and drive informed decisions.
             </p>
             <div className='py-10 grid lg:grid-cols-2 xl:grid-cols-3 gap-8'>
                 {projects.map((project) => {
