@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Bruno+Ace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Poiret+One&family=Xanh+Mono:ital@0;1&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,8 +13,11 @@
     }
 }
 .font-one {
-    font-family: "Poiret One", sans-serif;
+    font-family: "Xanh Mono", monospace;
 }
+/* .font-one {
+    font-family: "Poiret One", sans-serif;
+} */
 .font-sans {
     font-family: "Alumni Sans Pinstripe", sans-serif;
 }
