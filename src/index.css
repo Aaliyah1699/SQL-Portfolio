@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +12,13 @@
         @apply mx-auto max-w-7xl px-8;
     }
 }
-
-.font-bruno {
-    font-family: 'Bruno Ace', sans-serif;
+.font-one {
+    font-family: "Poiret One", sans-serif;
 }
+.font-sans {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+.font-candy {
+    font-family: "Emilys Candy", serif;
+}
+
