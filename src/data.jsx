@@ -1,15 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaPython, FaNode } from 'react-icons/fa';
+import { FaPython} from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 import { DiSqllite } from 'react-icons/di';
 import { PiFileSql } from 'react-icons/pi';
 import { GrMysql } from "react-icons/gr";
-import {
-    TbBrandJavascript,
-    TbBrandCSharp,
-    TbBrandTypescript,
-} from 'react-icons/tb';
+
 
 export const links = [
     { id: nanoid(), href: '/', text: 'home' },
@@ -19,6 +15,11 @@ export const links = [
         id: nanoid(),
         href: '#projects',
         text: 'projects',
+    },
+    {
+        id: nanoid(),
+        href: 'https://aaliyahm-portfolio.netlify.app/',
+        text: 'SWE Portfolio',
     },
 ];
 
@@ -31,28 +32,15 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'Javascript',
-        icon: <TbBrandJavascript className='h-16 w-16 text-rose-500' />,
-        text: 'Expertise in JavaScript, building interactive and dynamic web applications with seamless user interactions and functionality.',
-    },
-    {
-        id: nanoid(),
-        title: 'C#',
-        icon: <TbBrandCSharp className='h-16 w-16 text-rose-500' />,
-        text: 'Proficient in C#, engineering robust and scalable backend solutions with a meticulous approach to precision and efficiency.',
-    },
-    {
-        id: nanoid(),
-        title: 'Node.JS',
-        icon: <FaNode className='h-16 w-16 text-rose-500' />,
-        text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
-    },
-
-    {
-        id: nanoid(),
         title: 'SQL',
         icon: <PiFileSql className='h-16 w-16 text-rose-500' />,
         text: 'Manage and manipulate databases, guaranteeing peak performance and reliability for my applications.',
+    },
+    {
+        id: nanoid(),
+        title: 'MySQL',
+        icon: <GrMysql className='h-16 w-16 text-rose-500' />,
+        text: 'Design and optimize databases to ensure efficient data management and reliability in my projects.',
     },
     {
         id: nanoid(),
@@ -60,23 +48,11 @@ export const skills = [
         icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
         text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
     },
-     {
-        id: nanoid(),
-        title: 'MySQL',
-        icon: <GrMysql className='h-16 w-16 text-rose-500' />,
-        text: "Design and optimize databases to ensure efficient data management and reliability in my projects.",
-    },
     {
         id: nanoid(),
         title: 'MongoDB',
         icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
         text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
-    },
-    {
-        id: nanoid(),
-        title: 'Typescript',
-        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
-        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
     },
 ];
 
