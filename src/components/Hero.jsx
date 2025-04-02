@@ -6,13 +6,13 @@ const Hero = () => {
         <div className='bg-violet-100 py-8'>
             <div className='align-element grid md:grid-cols-2 items-center gap-8'>
                 <article>
-                    <h1 className='text-7xl font-bold tracking-wide font-candy text-slate-950'>
+                    <h1 className='text-7xl font-bold tracking-wide font-candy text-slate-900'>
                         Aaliyah M.
                     </h1>
-                    <p className='mt-4 text-4xl text-slate-800 capitalize tracking-wide font-one font-semibold'>
+                    <p className='mt-4 text-4xl text-slate-900 capitalize tracking-wide font-one font-semibold'>
                         Data Analyst
                     </p>
-                    <p className='mt-2 text-xl text-slate-800 capitalize tracking-wide font-one font-semibold'>
+                    <p className='mt-2 text-xl text-slate-900 capitalize tracking-wide font-one font-semibold'>
                         Unfolding stories woven beneath the surface.
                     </p>
                     <div className='flex gap-x-4 mt-4'>
