@@ -1,4 +1,3 @@
-import { FaGithub } from 'react-icons/fa';
 import { TbWorldHeart } from 'react-icons/tb';
 import { FiGithub } from 'react-icons/fi';
 
@@ -11,10 +10,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
                 className='w-full object-cover rounded-t-lg h-56'
             />
             <div className='capitalize p-6'>
-                <h2 className='text-xl tracking-wide text-slate-900 font-bold border-b border-slate-300'>
+                <h2 className='text-xl tracking-wide text-slate-950 font-bold border-b border-slate-300'>
                     {title}
                 </h2>
-                <p className='mt-2 text-slate-900 leading-loose'>{text}</p>
+                <p className='mt-2 text-slate-950 leading-loose'>{text}</p>
 
                 <div className='mt-3 flex gap-x-4'>
                     <a href={url} target='_blank' rel='noopener noreferrer'>
