@@ -3,14 +3,14 @@ import { nanoid } from 'nanoid';
 import {
     PiMicrosoftExcelLogoLight,
     PiChartLineUpThin,
-    PiChartScatterBold,
+    PiFileSqlLight,
 } from 'react-icons/pi';
 import { GrMysql } from 'react-icons/gr';
 import { IoLogoTableau, IoBarChartOutline } from 'react-icons/io5';
-import { TbTransform, TbBrandPython, TbFileTypeSql } from 'react-icons/tb';
+import { TbTransform, TbBrandPython } from 'react-icons/tb';
 import { MdOutlineCleaningServices } from 'react-icons/md';
-import { TfiPieChart } from 'react-icons/tfi';
-import { FaChartLine } from 'react-icons/fa';
+
+
 
 
 
@@ -34,7 +34,7 @@ export const skills = [
     {
         id: nanoid(),
         title: 'Data Analysis',
-        icon: <FaChartLine className='h-16 w-16 text-violet-500' />,
+        icon: <PiChartLineUpThin className='h-16 w-16 text-violet-500' />,
         text: 'Apply statistical and analytical techniques to uncover trends and insights from complex datasets.',
     },
     {
@@ -46,7 +46,7 @@ export const skills = [
     {
         id: nanoid(),
         title: 'SQL',
-        icon: <TbFileTypeSql className='h-16 w-16 text-violet-500' />,
+        icon: <PiFileSqlLight className='h-16 w-16 text-violet-500' />,
         text: 'Develop complex SQL queries to filter, aggregate, and optimize datasets for meaningful analysis.',
     },
     {
