@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Bruno+Ace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Poiret+One&family=Xanh+Mono:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Italiana&family=Satisfy&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,16 +12,22 @@
         @apply mx-auto max-w-7xl px-8;
     }
 }
+.font-dance {
+    font-family: 'Dancing Script', cursive;
+}
+.font-iana {
+font-family: 'Italiana', sans-serif;
+}
 .font-one {
+    /* font-family: "Nixie One", system-ui; */
     font-family: "Xanh Mono", monospace;
 }
 /* .font-one {
     font-family: "Poiret One", sans-serif;
 } */
 .font-sans {
-    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
 .font-candy {
-    font-family: "Emilys Candy", serif;
+    font-family: 'Emilys Candy', serif;
 }
-
