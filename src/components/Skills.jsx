@@ -5,7 +5,7 @@ import SkillsCard from './SkillsCard';
 const Skills = () => {
     return (
         <section
-            className='py-8 align-element font-one text-slate-50'
+            className='py-8 align-element font-iana text-slate-50 font-semibold'
             id='skills'
         >
             <SectionTitle text='Data Stack' />
