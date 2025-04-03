@@ -8,7 +8,7 @@ const About = () => {
                 <img src={about} alt='undraw image' className='w-full h-64' />
                 <article>
                     <SectionTitle text='About Me' />
-                    <p className='text-slate-900 mt-8 leading-loose text-lg font-iana'>
+                    <p className='text-slate-950 mt-8 leading-loose text-lg font-iana'>
                         I'm Aaliyah Montgomery, a dedicated data analyst
                         specializing in Python, SQL, and data visualization. I
                         transform raw data into powerful insights that inform
