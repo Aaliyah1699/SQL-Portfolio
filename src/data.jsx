@@ -1,10 +1,17 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaPython} from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si';
-import { DiSqllite } from 'react-icons/di';
-import { PiFileSql } from 'react-icons/pi';
-import { GrMysql } from "react-icons/gr";
+import {
+    PiMicrosoftExcelLogoLight,
+    PiChartLineUpThin,
+    PiChartScatterBold,
+} from 'react-icons/pi';
+import { GrMysql } from 'react-icons/gr';
+import { IoLogoTableau, IoBarChartOutline } from 'react-icons/io5';
+import { TbTransform, TbBrandPython, TbFileTypeSql } from 'react-icons/tb';
+import { MdOutlineCleaningServices } from 'react-icons/md';
+import { TfiPieChart } from 'react-icons/tfi';
+import { FaChartLine } from 'react-icons/fa';
+
 
 
 export const links = [
@@ -26,115 +33,119 @@ export const links = [
 export const skills = [
     {
         id: nanoid(),
+        title: 'Data Analysis',
+        icon: <FaChartLine className='h-16 w-16 text-violet-500' />,
+        text: 'Apply statistical and analytical techniques to uncover trends and insights from complex datasets.',
+    },
+    {
+        id: nanoid(),
         title: 'Python',
-        icon: <FaPython className='h-16 w-16 text-rose-500' />,
-        text: 'Fluent in Python, enabling versatile scripting and application development with a keen focus on readability and efficiency.',
+        icon: <TbBrandPython className='h-16 w-16 text-violet-500' />,
+        text: 'Proficient in Python for data analysis, leveraging libraries like Pandas and NumPy to clean, process, and visualize data efficiently.',
     },
     {
         id: nanoid(),
         title: 'SQL',
-        icon: <PiFileSql className='h-16 w-16 text-rose-500' />,
-        text: 'Manage and manipulate databases, guaranteeing peak performance and reliability for my applications.',
+        icon: <TbFileTypeSql className='h-16 w-16 text-violet-500' />,
+        text: 'Develop complex SQL queries to filter, aggregate, and optimize datasets for meaningful analysis.',
+    },
+    {
+        id: nanoid(),
+        title: 'Tableau',
+        icon: <IoLogoTableau className='h-16 w-16 text-violet-500' />,
+        text: 'Transform raw data into compelling, actionable insights using Tableau’s powerful visualization tools.',
+    },
+    {
+        id: nanoid(),
+        title: 'Excel',
+        icon: (
+            <PiMicrosoftExcelLogoLight className='h-16 w-16 text-violet-500' />
+        ),
+        text: 'Analyze, clean, and visualize data efficiently using Excel’s advanced functions and pivot tables.',
     },
     {
         id: nanoid(),
         title: 'MySQL',
-        icon: <GrMysql className='h-16 w-16 text-rose-500' />,
-        text: 'Design and optimize databases to ensure efficient data management and reliability in my projects.',
+        icon: <GrMysql className='h-16 w-16 text-violet-500' />,
+        text: 'Utilize MySQL to manage large datasets, ensuring efficient querying and data integrity.',
     },
     {
         id: nanoid(),
-        title: 'SQLite',
-        icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
-        text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
+        title: 'Data Statistics',
+        icon: <IoBarChartOutline className='h-16 w-16 text-violet-500' />,
+        text: 'Apply statistical techniques to analyze trends, measure variability, and make data-driven decisions.',
     },
     {
         id: nanoid(),
-        title: 'MongoDB',
-        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
-        text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
+        title: 'Data Cleaning',
+        icon: (
+            <MdOutlineCleaningServices className='h-16 w-16 text-violet-500' />
+        ),
+        text: 'Clean and preprocess raw data to improve accuracy, completeness, and consistency.',
+    },
+    {
+        id: nanoid(),
+        title: 'Data Transformation',
+        icon: <TbTransform className='h-16 w-16 text-violet-500' />,
+        text: 'Restructure and convert data into formats optimized for analysis and reporting.',
     },
 ];
 
 export const projects = [
     {
         id: nanoid(),
-        img: '/curious.png',
-        url: 'https://aaliyah-curiosities.onrender.com/',
-        github: 'https://github.com/Aaliyah1699/Blog2',
-        title: 'The Curiosities of Aaliyah',
-        text: 'The Curiosities of Aaliyah satisfies my inquisitive nature through a feature-rich MERN stack blog covering diverse topics that pique my interest. It includes secure user authentication, full CRUD functionality, advanced search, image uploads, commenting, and likes to foster community engagement. The responsive React frontend, MongoDB database, Express server, and Node.js backend provide a smooth user experience. ',
+        img: '/salesdashboard.png',
+        url: 'https://public.tableau.com/app/profile/aaliyah.montgomery/viz/SalesAnalysis_17427797660550/SalesDashboard',
+        github: '',
+        title: 'Sales Dashboard',
+        text: 'This dynamic dashboard offers a robust year-over-year comparison of sales metrics. Monitor total sales, profit, and quantity with clear highest and lowest month indicators, analyze subcategory performance, and track weekly trends with insightful above/below average markers. With customizable filters and interactive charts, users can seamlessly explore detailed sales dynamics—further enhanced by its direct connection to the Customer Dashboard.',
     },
     {
         id: nanoid(),
-        img: '/realty.png',
-        url: 'https://realtyrise.onrender.com',
-        github: 'https://github.com/Aaliyah1699/Real-Estate-App',
-        title: 'RealtyRise',
-        text: 'RealtyRise: Revolutionizing Real Estate Management. With advanced authentication, seamless user access via Firebase and Google OAuth, and intuitive CRUD operations, RealtyRise simplifies property management. Featuring user-friendly functionalities like image uploads and robust search capabilities, finding and managing properties has never been easier.',
+        img: '/customer.png',
+        url: 'https://public.tableau.com/app/profile/aaliyah.montgomery/viz/SalesAnalysis_17427797660550/SalesDashboard',
+        github: '',
+        title: 'Customer Dashboard',
+        text: 'Linked directly to the Sales Dashboard, this tool provides an in-depth, year-over-year analysis of customer insights. Featuring key metrics like total customers, sales per customer, and total orders with clear monthly peaks and valleys, it visualizes customer distribution and highlights the top 10 customers. Flexible filtering by year, product, and location allows for effortless drilling into vital customer trends.',
     },
     {
         id: nanoid(),
-        img: '/synthwave.png',
-        url: 'https://synthwave-app.onrender.com/',
-        github: 'https://github.com/Aaliyah1699/SynthWaveApp',
-        title: 'SynthWave',
-        text: 'SynthWave is a robust and secure E-commerce platform built with the MERN stack, featuring comprehensive admin capabilities for order management and user administration, integrated with PayPal API for seamless transactions, and empowering users with account creation, order placement, and review functionality.',
+        img: '/bike.png',
+        url: 'https://public.tableau.com/app/profile/aaliyah.montgomery/viz/BikeSalesAnalysis_17399753428100/BikeSalesDashboard',
+        github: '',
+        title: 'Bike Sales Analysis',
+        text: 'Discover a comprehensive view of bike sales performance with this interactive dashboard. Track key financial metrics, dissect sales by gender, age, and product, and navigate a dynamic country map. Flexible filters for year and country empower users to pinpoint trends and spotlight top-selling products.',
     },
     {
         id: nanoid(),
-        img: '/clinic.png',
-        url: 'https://github.com/Aaliyah1699/Py-CodeClinic',
-        github: 'https://github.com/Aaliyah1699/Py-CodeClinic',
-        title: 'CodeClinic AI',
-        text: 'CodeClinic AI is a cutting-edge web application designed to revolutionize the coding experience. Powered by Python, Django, SQLite, and the OpenAI API, it offers a sophisticated chatbot interface tailored specifically for code-related queries. From fixing bugs to suggesting code snippets in multiple languages, CodeClinic AI is your go-to virtual coding assistant. With features like user authentication, code history storage, and easy code copying, it simplifies and enhances the coding journey for developers of all levels. Say goodbye to coding frustrations and hello to a smoother, more efficient coding experience with CodeClinic AI.',
+        img: '/ev.png',
+        url: 'https://public.tableau.com/app/profile/aaliyah.montgomery/viz/ElectricVehicleAnalysisWashington_17399221384960/Dashboard1',
+        github: '',
+        title: 'Electric Vehicle Analysis | Washington',
+        text: 'Experience a dynamic Tableau dashboard that maps electric vehicle ownership across Washington. With an intuitive car make filter, users can dive into trends by vehicle year and model, uncover the top 10 countries of origin, and visualize ownership distribution on an engaging postal code map—providing a clear window into the state’s EV evolution.',
     },
     {
         id: nanoid(),
-        img: '/moonlit.png',
-        url: 'https://moonlit-reverie-111.netlify.app/',
-        github: 'https://github.com/Aaliyah1699/Moonlit-Reverie',
-        title: 'Moonlit Reverie',
-        text: 'Shop comfortably with Moonlit Reverie, a React web app utilizing Strapi API as its headless CMS. Browse products, register an account, and experience seamless checkout. Intelligent filtering and personalization ensure a frictionless shopping experience.',
+        img: '/steps.png',
+        url: '',
+        github: '',
+        title: 'Step Tracker Data Analysis',
+        text: 'Delve into daily activity trends using Python and powerful libraries Pandas, NumPy, Seaborn, and Matplotlib. This project reveals the interplay between sleep, physical activity, and mood through insightful statistical measures and engaging visualizations that capture key correlations.',
     },
     {
         id: nanoid(),
-        img: '/voyage.png',
-        url: 'https://visual-voyage.netlify.app/',
-        github: 'https://github.com/Aaliyah1699/Visual-Voyage',
-        title: 'Visual Voyage',
-        text: 'Explore captivating images with Visual Voyage, the image search app offering immersive themes, seamless searching, and a stunning image showcase utilizing the Unsplash API.',
+        img: '/crime.png',
+        url: '',
+        github: '',
+        title: 'LA Crime Analysis',
+        text: 'Explore Los Angeles crime patterns with this data-driven investigation utilizing Python, Pandas, and Matplotlib. Through meticulous data cleaning and innovative visualizations, the project uncovers underlying trends and delivers actionable insights into urban safety and crime dynamics.',
     },
     {
         id: nanoid(),
-        img: '/fairy.png',
-        url: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
-        github: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
-        title: 'Fairy GodBot',
-        text: 'Enter the realm of Fairy GodBot, a cutting-edge MERN full-stack application infused with TypeScript, where real-time interactions with an OpenAI AI chatbot await. Seamlessly secure, users can create accounts, engage in conversations, and even delete previous exchanges, while the AI stands ready to answer any query.',
-    },
-    {
-        id: nanoid(),
-        img: '/inkwell.png',
-        url: 'https://github.com/Aaliyah1699/Blog-UI',
-        github: 'https://github.com/Aaliyah1699/Blog-Api',
-        title: 'The Inkwell Serenades',
-        text: 'Immerse yourself in The Inkwell Serenades, a secure and dynamic full-stack blog powered by a C# backend and SQLite database. With comprehensive admin functionalities enabling blog post, category, and image upload management which is directly stored in the database, and an Angular frontend crafted with TypeScript, this platform offers a seamless and enriching blogging experience.',
-    },
-    {
-        id: nanoid(),
-        img: '/python-chatbot.png',
-        url: 'https://github.com/Aaliyah1699/Py-chatbot',
-        github: 'https://github.com/Aaliyah1699/Py-chatbot',
-        title: 'PyChatBot',
-        text: 'Step into the world of seamless communication with PyChatBot, a revolutionary Python application that harnesses the cutting-edge capabilities of the OpenAI API. PyChatBot delivers an immersive conversation experience, blurring the lines between human interaction and artificial intelligence, with its powerful natural language processing.',
-    },
-    {
-        id: nanoid(),
-        img: '/shop.png',
-        url: 'https://e-commerce-api-q5wi.onrender.com/',
-        github: 'https://github.com/Aaliyah1699/EasyShop-API',
-        title: 'Easy Shop API',
-        text: 'Unlock the potential of a robust and secure backend e-commerce API powered by Node.js, Express.js, and MongoDB. Seamlessly manage user accounts, orders, and products, offering a complete e-commerce solution.',
+        img: '/super.png',
+        url: '',
+        github: '',
+        title: 'Super Store Sales Analysis',
+        text: 'Unlock the story behind retail performance with a comprehensive analysis of Super Store sales. Using Python and an array of visualization tools, this project forecasts demand, evaluates sales and customer trends, and examines the impacts of discounts and shipping—offering a strategic blueprint for business optimization.',
     },
 ];
