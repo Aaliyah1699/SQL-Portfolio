@@ -10,10 +10,6 @@ import { IoLogoTableau, IoBarChartOutline } from 'react-icons/io5';
 import { TbTransform, TbBrandPython } from 'react-icons/tb';
 import { MdOutlineCleaningServices } from 'react-icons/md';
 
-
-
-
-
 export const links = [
     { id: nanoid(), href: '/', text: 'home' },
     { id: nanoid(), href: '#skills', text: 'skills' },

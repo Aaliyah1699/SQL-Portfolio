@@ -11,9 +11,7 @@ const SectionTitle = ({ text }) => {
     );
 };
 
-
 export default SectionTitle;
-
 
 //  No icon code
 // const SectionTitle = ({ text }) => {
