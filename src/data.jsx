@@ -144,4 +144,20 @@ export const projects = [
         title: 'Super Store Sales Analysis',
         text: 'Unlock the story behind retail performance with a comprehensive analysis of Super Store sales. Using Python and an array of visualization tools, this project forecasts demand, evaluates sales and customer trends, and examines the impacts of discounts and shipping—offering a strategic blueprint for business optimization.',
     },
+    {
+        id: nanoid(),
+        img: '/product.png',
+        url: 'https://github.com/Aaliyah1699/SQL-and-Data-Analysis/tree/main',
+        github: 'https://github.com/Aaliyah1699/SQL-and-Data-Analysis/tree/main',
+        title: 'Ecommerce Product Analysis',
+        text: 'Explore the dynamic world of e-commerce customer behavior with this SQL project. Utilizing advanced techniques like CTEs and precise calculations, the analysis dissects navigation patterns before and after a key product launch. It reveals critical conversion pathways, empowering smarter product strategies with data-driven insights.',
+    },
+    {
+        id: nanoid(),
+        img: '/impact.png',
+        url: 'https://github.com/Aaliyah1699/SQL-and-Data-Analysis/tree/main',
+        github: 'https://github.com/Aaliyah1699/SQL-and-Data-Analysis/tree/main',
+        title: 'Ecommerce Product Impact Analysis',
+        text: 'Experience a deep dive into e-commerce performance with this SQL project. Leveraging advanced techniques such as DISTINCT selections, LEFT JOINs, and precise conversion calculations, it reveals how customers interact with key product pages. Focused analysis within a targeted date range uncovers actionable insights into product contributions and the impact of launches, paving the way for strategic optimization.',
+    },
 ];
